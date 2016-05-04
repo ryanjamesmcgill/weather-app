@@ -1,0 +1,82 @@
+body{
+	transition: color 5.0s ease;
+	transition: background-color 5.0s ease;
+	background-color: #8A8A8A;
+	color: #8A8A8A;
+}
+
+p {
+	margin: 10px;
+}
+
+#icon-container {
+	transition: transform 2.0s ease;
+}
+#icon-container.animate{
+	transform: rotate(360deg);
+}
+
+#icon {
+	transition: color 5.0s ease, opacity 2.0s ease;
+	font-size: 1200%;
+	margin: 20px;
+	transform: rotate(45);
+}
+
+#summary {
+	transition: color 5.0s ease;
+	transition: opacity 5.0s ease;
+	font-size: 200%;
+	opacity: 0;
+}
+#location{
+	transition: color 5.0s ease;
+	transition: opacity 5.0s ease;
+	opacity: 0;
+}
+#temp {
+	opacity: 0;
+	transition: opacity 5.0s ease;
+}
+
+#temp-val{
+	transition: color 5.0s ease;
+	font-size: 500%;
+	margin-right: 10px;
+}
+
+.wi.active {
+	transition: color 5.0s ease;
+	font-size: 500%;
+}
+
+.wi.inactive{
+	font-size: 250%;
+	transition: color 0.5s ease;
+	color: #757575;
+}
+.wi.inactive:hover{
+	color: #F1F1F1;
+}
+
+
+#weatherbox-inner{
+	max-width: 400px;
+	margin: auto;
+	overflow: hidden;
+}
+.weatherbox {
+	display: inline-block;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px;
+	background-color: #333;
+}
+
+.mastfoot {
+	color: #333;
+}
+
+.wi-forecast-io-partly-cloudy-day{
+	transform: translateY(40px);
+}
