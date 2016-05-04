@@ -64,7 +64,7 @@ var getCoords = function(){
 		temp_f: "0",
 		temp_c: "0",
 		icon : "",
-		summary: "Uh-oh we could not get you location, please allow this site to get your location from you browser.",
+		summary: "Uh-oh we could not get your location, please allow this site to get your location from you browser.",
 		location: "????",
 		state: ""
 		};
